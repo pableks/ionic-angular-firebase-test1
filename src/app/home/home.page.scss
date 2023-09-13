@@ -1,0 +1,29 @@
+
+ion-content {
+    --offset-bottom: auto!important;
+
+--overflow: hidden;
+
+overflow: auto;
+
+&::-webkit-scrollbar {
+
+  display: none;
+
+}
+  }
+.centered-content {
+    text-align: center; // Center the content horizontally
+  
+    img {
+      padding-top: 50px;  
+      max-width: 70%; // Ensure the image doesn't exceed its container's width
+      height: auto;    // Maintain the image's aspect ratio
+    }
+  
+    // Media query for smaller screens (adjust the max-width as needed)
+    @media screen and (max-width: 768px) {
+      font-size: 14px; // Adjust font size for smaller screens
+    }
+  }
+  
